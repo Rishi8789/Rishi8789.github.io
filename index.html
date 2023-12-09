@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> -->
+    <!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/github-calendar@1.1.0/dist/github-calendar.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+
+    <!-- <link rel="stylesheet" href="Style.css/index.css"> -->
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+
+    <nav id="nav-menu" class="navbar navbar-expand-md navbar-light bg-light">
+
+        
+        <!-- <label id="switch" class="switch">
+            <input type="checkbox" id="theme-toggle-btn">
+            <span class="slider round"></span>
+        </label> -->
+
+
+        <!-- Theme Toggle Switch -->
+        <label id="switch" class="switch">
+            <input type="checkbox" id="theme-toggle-btn" checked>
+            <span class="slider round"></span>
+          </label>
+          
+
+
+        <!-- Navbar Toggler Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link home" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link about" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link skills" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link projects" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link contact" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link resume" id="resume-button-1" href="RISHI RANJAN-pw13_044-Full Stack Web Developer (4).pdf"
+                        download target="_blank"
+                        onclick="setTimeout(function(){ window.open('https://drive.google.com/file/d/1Co4FUGlDZn9dMIHJ8FGcAf7glCRFVw7c/view?usp=sharing'); }, 100);">Resume</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Include the jQuery and Bootstrap JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+    <!-- ================================== Home Section ======================================= -->
+
+    <section class="home section" id="home">
+
+        <div class="homediv">
+            <div class="user-detail">
+                <!-- User Details -->
+                <p id="user-detail-name">👋Hey, <br>
+                    I'm Rishi Ranjan</p>
+                <p id="user-detail-in">Full Stack Developer from India.</p>
+                <!-- Download Resume Button -->
+                <a id="resume-button-2" href="RISHI RANJAN-pw13_044-Full Stack Web Developer (4).pdf" download target="_blank"
+                    onclick="setTimeout(function(){ window.open('https://drive.google.com/file/d/1Co4FUGlDZn9dMIHJ8FGcAf7glCRFVw7c/view?usp=sharing'); }, 100);">Download
+                    Resume</a>
+            </div>
+            <!-- User Image -->
+            <div class="image-container">
+                <img class="home-img" src="Images/RishiPic.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================================== About Section ================================= -->
+
+    <section id="about" class="about section">
+        <!-- About Section Heading  added -->
+        <h2>📝About</h2>
+        <div class="aboutdiv">
+            <div class="aboutimg">
+                <!-- About Image -->
+                <img src="./Images/devloperImg.jpg" alt="">
+            </div>
+
+            <div class="about_intro">
+                <!-- About Introduction -->
+                <h1 id="myText">😊 Know Me</h1>
+                <p id="user-detail-intro">
+                    Full-stack developer with a strong background in developing scalable, efficient, and secure web
+                    applications. Proficient in  HTML, CSS, JavaScript, React, Redux, Java, C++  and deep understanding of
+                    database management systems and have worked extensively with MongoDB  databases. Skilled in
+                    collaborating with cross-functional teams to deliver high-quality software solutions that meet
+                    business
+                    requirements. Dedicated to continuously improving my skills and staying up-to-date with emerging
+                    trends and
+                    technologies in the industry.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Get the element that displays the changing text
+        var textElement = document.getElementById("myText");
+        // Define an array of texts to cycle through
+        var texts = [
+            "👩‍💻 Rishi Ranjan",
+            "📣Communicator",
+            "☕ Full-Stack Developer",
+            // Add more texts here
+        ];
+        var index = 0;
+        // Function to change the text
+        function changeText() {
+            textElement.textContent = texts[index];
+            index = (index + 1) % texts.length; // Cycle through the texts
+        }
+        // Call the changeText function at a set interval to change the text periodically
+        setInterval(changeText, 1500);
+    </script>
+
+
+    <!-- ================================== Skill Section ================================= -->
+
+    <section id="skills">
+
+        <!-- Skills Section Heading -->
+        <h2>💻Skills</h2>
+        <div class="icon-img">
+
+            <!-- Java Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="https://cdn.iconscout.com/icon/free/png-256/java-43-569305.png"
+                    alt="Java Icon">
+                <h3 class="skills-card-name">Java</h3>
+            </div>
+
+            <!-- JavaScript Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img"
+                    src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png"
+                    alt="JavaScript Icon">
+                <h3 class="skills-card-name">JavaScript</h3>
+            </div>
+
+            <!-- HTML Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="https://cdn.iconscout.com/icon/free/png-256/html5-40-1175193.png"
+                    alt="HTML Icon">
+                <h3 class="skills-card-name">HTML</h3>
+            </div>
+
+            <!-- CSS Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="https://cdn.iconscout.com/icon/free/png-256/css3-9-1175237.png"
+                    alt="CSS Icon">
+                <h3 class="skills-card-name">CSS</h3>
+            </div>
+
+            <!-- git Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" style="width: 300px;" src="Images/gitll.png" alt="Github Icon">
+                <h3 class="skills-card-name">Git</h3>
+            </div>
+
+            <!-- Node.jsSkill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" style="width: 200px;" src="Images/nodel.png"
+                    alt="Node.js Icon">
+                <h3 class="skills-card-name">Node.js</h3>
+            </div>
+
+            <!-- React Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images/reactl.png" alt="react Icon">
+                <h3 class="skills-card-name">React.js</h3>
+            </div>
+
+             <!-- redux Skill Card -->
+             <div class="skills-card">
+                <img class="skills-card-img" src="Images/reduxl.png" alt="Redux Icon">
+                <h3 class="skills-card-name">Redux</h3>
+            </div>
+
+             <!-- Express Skill Card -->
+             <div class="skills-card">
+                <img class="skills-card-img" src="Images/expressl.png" alt="Express Icon">
+                <h3 class="skills-card-name">Express</h3>
+            </div>
+
+             <!-- c+C Skill Card -->
+             <div class="skills-card">
+                <img class="skills-card-img" src="Images/c++ll.png" alt="Hibernate Icon">
+                <h3 class="skills-card-name">C++</h3>
+            </div>
+
+            <!-- Hibernate Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-mongodb-240.png" alt="Hibernate Icon">
+                <h3 class="skills-card-name">MongoDB</h3>
+            </div>
+
+            <!-- DSA (Data Structures and Algorithms) Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-mind-map-128.png" alt="DSA Icon">
+                <h3 class="skills-card-name">DSA</h3>
+            </div>
+        </div>
+
+        <!-- ========== Tools ========= -->
+
+        <h2>Tech&Tools</h2>
+        <div class="icon-img">
+
+            <!-- Git Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="https://cdn.iconscout.com/icon/free/png-256/git-225996.png"
+                    alt="Git Icon">
+                <h3 class="skills-card-name">Git</h3>
+            </div>
+
+            <!-- Netlify Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" style="width: 200px;" src="Images\netlify.png" alt="Netlify Icon">
+                <h3 class="skills-card-name">Netlify</h3>
+            </div>
+
+            <!-- Postman Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-postman-api-256.png" alt="Postman Icon">
+                <h3 class="skills-card-name">Postman</h3>
+            </div>
+
+            <!-- JSON Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images\json.png" alt="JSON Icon">
+                <h3 class="skills-card-name">JSON</h3>
+            </div>
+
+            <!-- Visual Studio Code Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-visual-studio-code-2019-480.png" alt="VSCode Icon">
+                <h3 class="skills-card-name">VSCode</h3>
+            </div>
+
+           
+
+            <!-- Maven Skill Card -->
+            <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-maven-ios-100.png" alt="Maven Icon">
+                <h3 class="skills-card-name">Maven</h3>
+            </div>
+
+             <!-- Maven Skill Card -->
+             <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-firebase-240.png" alt="Maven Icon">
+                <h3 class="skills-card-name">Firebase</h3>
+            </div>
+
+             <!-- Maven Skill Card -->
+             <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-thunder-100.png" alt="Maven Icon">
+                <h3 class="skills-card-name">Thunder</h3>
+            </div>
+
+             <!-- Maven Skill Card -->
+             <!-- <div class="skills-card">
+                <img class="skills-card-img" src="Images\icons8-railway-100.png" alt="Maven Icon">
+                <h3 class="skills-card-name">Railway</h3>
+            </div> -->
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ================================== Project Section ====================================== -->
+
+
+
+
+    <section id="projects">
+        <h2>📱Projects</h2>
+        <div class="project-div">
+            <div class="project-card">
+                <img class="project-img" src="Images/bigbasketpic.png" alt="Project 1 image">
+                <h3 class="project-title">BigBasket</h3>
+                <p class="project-description">BigBasket web app mimics the online grocery platform, showcasing frontend design and functionality. Users can browse, add to cart, and checkout. </p>
+                <div class="project-tech-stack">
+                    <div class="techstack">
+                        <img src="Images/html.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/css3-9-1175237.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="Images/gitll.png" alt="">
+
+                    </div>
+                </div>
+                <a class="project-github-link"
+                    href="https://github.com/Imesunny/Big_Basket_Platform-Collab"
+                    target="_blank">
+                    <button class="button-33" role="button">GitHub</button>
+                </a>
+
+                <a class="project-deployed-link" href="https://64e7ae187eb6d30b420f1d46--lucky-cupcake-e72a9a.netlify.app/" target="_blank">
+                    <button class="button-33" role="button">Deployed</button>
+                </a>
+
+            </div>
+
+
+            <div class="project-card">
+                <img class="project-img" src="Images/medical.png" alt="Project 2 image">
+                <h3 class="project-title">Online Medical Store</h3>
+                <p class="project-description">
+                    Created a fully responsive online medical store project, enabling users to easily order and make payments for medicines. The user-friendly interface ensures a seamless experience for a convenient and efficient online pharmacy service.</p>
+
+                <div class="project-tech-stack">
+                    <div class="techstack">
+                        <img src="Images\icons8-javascript-250.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/html5-40-1175193.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/css3-9-1175237.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="Images/json.png" alt="">
+
+                    </div>
+                </div>
+
+                <a class="project-github-link" href="https://github.com/satyam46020/joyful-ring-9720"
+                    target="_blank"><button class="button-33" role="button">GitHub</button>
+                </a>
+                <a class="project-deployed-link" href="https://653654a73f8e7f009d227893--bespoke-raindrop-bfcf0e.netlify.app/"
+                    target="_blank"><button class="button-33" role="button">Deployed</button></a>
+
+            </div>
+
+            <div class="project-card">
+                <img class="project-img" 
+                    src="Images/golciers.png"
+                    alt="Project 1 image">
+                <h3 class="project-title">Glossier</h3>
+                <p class="project-description">Discover beauty at Glossier! Shop skincare, makeup kits, and more on our user-friendly website. Enjoy hassle-free features like login, diverse products, easy navigation, a seamless cart experience, and secure payments. 💄🌟</p>
+
+
+                <div class="project-tech-stack">
+                    <div class="techstack">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/html5-40-1175193.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="Images/html.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="Images/icons8-javascript-250.png" alt="">
+
+                    </div>
+                    <div class="techstack">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/git-225996.png" alt="">
+
+                    </div>
+                </div>
+                <a class="project-github-link" href="https://github.com/Sushil1603/Project-Choice-Rice"
+                    target="_blank"><button class="button-33" role="button">GitHub</button></a>
+                <a class="project-deployed-link"
+                    href="https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/"
+                    target="_blank"><button class="button-33" role="button">Deployed</button></a>
+            </div>
+
+
+          
+            <div>
+    </section>
+
+    <!-- ================================================================================================ -->
+
+    <div class="react-activity-calendar calendar">
+
+    </div>
+    <div class="git">
+        <div class="github-streak">
+            <img class="git-img" id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com/?user=Rishi8789&theme=dark"
+                alt="GitHub Streak Stats">
+        </div>
+
+        <div class="github-top">
+            <img id="github-top-langs"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishi8789&layout=compact&theme=dark"
+                alt="GitHub Top Languages">
+        </div>
+
+        <div class="github-stats">
+            <img id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=Rishi8789&show_icons=true&theme=dark"
+                alt="GitHub Stats Card">
+        </div>
+    </div>
+
+
+    <!-- ================================================================================================ -->
+
+
+    <section id="contact" class="contact section">
+        <h2>📧Contact Me</h2>
+        <div class="con">
+            <div class="contact-div-form">
+                <form action="https://formspree.io/f/xgebjkoy" method="post" class="contact__form" id="contact-form">
+                    <input type="text" placeholder="Name" class="contact__input" id="name-input" name="name"
+                        autocomplete="off" required>
+                    <input type="email" placeholder="Email" class="contact__input" id="email-input" name="email"
+                        autocomplete="off" required>
+                    <textarea name="message" id="message-input" cols="0" rows="10" class="contact__input"
+                        autocomplete="off" required></textarea>
+                    <input type="submit" value="Submit" class="contact__button button">
+                </form>
+            </div>
+
+            <div id="contact-social">
+                <div class="github-icon-contact animated">
+                    <img src="Images\icons8-github-48.png" alt="">
+                    <a style="color: black;" id="contact-github" href="https://github.com/Rishi8789" target="_blank">
+                        <p class="line">GitHub</p>
+                    </a>
+                </div>
+
+                <div class="github-icon-contact animated">
+                    <img src="Images\icons8-linkedin-60.png" alt="">
+                    <a style="color: black;" id="contact-linkedin"
+                        href="https://www.linkedin.com/in/rishi-ranjan-/" target="_blank">
+                        <p class="line">LinkedIn</p>
+                    </a>
+                </div>
+
+                <div class="github-icon-contact animated">
+                    <img src="Images/icons8-phone-50.png" alt="">
+                    <p id="contact-phone"><a style="color: black;" href="tel:+918789435450"
+                            target="_blank">+91-8789435450</a></p>
+                </div>
+
+
+                <div class="github-icon-contact animated">
+                    <img src="Images/icons8-email-64.png" alt="">
+                    <p id="contact-email"><a style="color: black;" href="mailto:rishiranjan1604.com"
+                            target="_blank">rishiranjan1604.com</a></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        window.onpageshow = function (event) {
+            if (event.persisted) {
+                // Clear form fields
+                document.getElementById("name-input").value = "";
+                document.getElementById("email-input").value = "";
+                document.getElementById("message-input").value = "";
+            }
+        };
+    </script>
+
+
+    <!-- footer -->
+    <div style="text-align: center;" class="foot">
+        <p> © 2023 Shalu Gupta</p>
+    </div>
+
+</body>
+
+</html>
+
+
+<script>
+    // Function to toggle between dark and light themes
+    function toggleTheme() {
+        const body = document.querySelector('body');
+        body.classList.toggle('dark-theme');
+        body.classList.toggle('light-theme');
+    }
+
+    // Event listener for theme toggle button
+    const themeToggleBtn = document.getElementById('theme-toggle-btn');
+    themeToggleBtn.addEventListener('click', toggleTheme);
+
+</script>
+
+
+
+<script>
+    GitHubCalendar(".calendar", "Rishi8789");
+
+    GitHubCalendar(".calendar", "Rishi8789", { responsive: true });
+</script>
