@@ -953,13 +953,14 @@
  }
 
  .react-activity-calendar.calendar {
-   width: 80%;
+   width: 60%;
    padding: 20px;
    margin-top: 20px;
    background: linear-gradient(135deg, #ff8c00, #ff00ff);
    border-radius: 10px;
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
    transition: all 0.3s ease;
+   /* height: 150px; */
  }
 
  .react-activity-calendar.calendar:hover {
