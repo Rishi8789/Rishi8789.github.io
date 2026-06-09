@@ -1,0 +1,50 @@
+[
+  {
+    "id": "person1",
+    "name": "Aman Verma",
+    "fullName": "Aman Verma",
+    "avatar": "./assets/images/testimonial/person1.jpg",
+    "position": "Product Manager | HealthTech, Gurgaon",
+    "text": "Rishi delivered our medical assistant MVP in a very short timeline without compromising quality. He took ownership of both AI behavior and API stability, and his communication with product and clinical teams was always clear and practical."
+  },
+  {
+    "id": "person2",
+    "name": "Priya Nair",
+    "fullName": "Priya Nair",
+    "avatar": "./assets/images/testimonial/person2.jpg",
+    "position": "Engineering Manager | InsurTech, Bengaluru",
+    "text": "I appreciated how Rishi handled complex debugging across prompt flows and backend services. He consistently brought structure to ambiguous problems and helped us reduce production incidents during major releases."
+  },
+  {
+    "id": "person3",
+    "name": "Rahul Mehta",
+    "fullName": "Rahul Mehta",
+    "avatar": "./assets/images/testimonial/person3.jpg",
+    "position": "Senior Software Engineer | Pune",
+    "text": "Working with Rishi was smooth because he writes clean, maintainable code and thinks about long-term reliability. His approach to retries, fallbacks, and testing improved our confidence in every deployment."
+  },
+  {
+    "id": "person4",
+    "name": "Neha Sharma",
+    "fullName": "Neha Sharma",
+    "avatar": "./assets/images/testimonial/person4.jpg",
+    "position": "QA Lead | Noida",
+    "text": "Rishi collaborated closely with QA and made sure edge cases were covered early. The regression suite he introduced saved us from repeated breakages and made release cycles much more predictable."
+  },
+  {
+    "id": "person5",
+    "name": "Siddharth Rao",
+    "fullName": "Siddharth Rao",
+    "avatar": "./assets/images/testimonial/person5.jpg",
+    "position": "Tech Lead | Mumbai",
+    "text": "Rishi combines strong full-stack skills with practical AI engineering. He does not just build demos, he ships production-ready features that are observable, measurable, and genuinely useful to end users."
+  },
+  {
+    "id": "person6",
+    "name": "Kavya Iyer",
+    "fullName": "Kavya Iyer",
+    "avatar": "./assets/images/testimonial/person6.jpg",
+    "position": "Business Analyst | Delhi NCR",
+    "text": "From requirement discussions to final rollout, Rishi stayed focused on business outcomes. He explained technical trade-offs in simple terms and helped stakeholders make faster and better product decisions."
+  }
+]

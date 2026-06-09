@@ -1,0 +1,49 @@
+{
+  "educations": [
+    {
+      "title": "B.Tech, Electrical and Electronics Engineering",
+      "organization": "Bihar Engineering University, Patna",
+      "date": "2019 - 2023",
+      "skill": "CGPA: 7.89 / 10.0"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Full Stack Generative AI & Agentic AI with Python",
+      "organization": "Udemy",
+      "date": "Certification",
+      "credentialUrl": "",
+      "skill": "Generative AI, Agentic AI, Python"
+    },
+    {
+      "title": "Full Stack Web Development Program",
+      "organization": "Masai School",
+      "date": "Certification",
+      "credentialUrl": "",
+      "skill": "Full Stack Web Development"
+    },
+    {
+      "title": "React Native - The Practical Guide",
+      "organization": "Udemy",
+      "date": "Certification",
+      "credentialUrl": "",
+      "skill": "React Native"
+    },
+    {
+      "title": "The Ultimate React Course: Next.js & Redux",
+      "organization": "Udemy",
+      "date": "Certification",
+      "credentialUrl": "",
+      "skill": "React, Redux, Next.js"
+    }
+  ],
+  "workshops": [
+    {
+      "title": "Achiever of the Month",
+      "organization": "Monocept Consulting, Gurugram",
+      "date": "March 2026",
+      "credentialUrl": "",
+      "skill": "Recognized by leadership for shipping two major AI features that directly improved client outcomes."
+    }
+  ]
+}

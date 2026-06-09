@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gen-ai",
+    "icon": "./assets/images/logo/icon-dev.svg",
+    "title": "Generative AI Solutions",
+    "description": "Designing and shipping production-grade GenAI applications using LLM APIs, prompt engineering, and robust fallback logic."
+  },
+  {
+    "id": "agentic-ai",
+    "icon": "./assets/images/logo/icon-ai.svg",
+    "title": "Agentic AI Workflows",
+    "description": "Building autonomous tool-using agents with LangChain that select tools, recover from failures, and produce grounded outputs."
+  },
+  {
+    "id": "rag",
+    "icon": "./assets/images/logo/icon-app.svg",
+    "title": "RAG Pipelines",
+    "description": "Implementing retrieval-augmented generation systems with Pinecone, Sentence Transformers, and semantic search optimization."
+  },
+  {
+    "id": "full-stack",
+    "icon": "./assets/images/logo/icon-BusinessDev.svg",
+    "title": "Full-Stack Engineering",
+    "description": "Delivering end-to-end web products with React, Redux, Node.js, and REST APIs with strong testing and release quality."
+  }
+]

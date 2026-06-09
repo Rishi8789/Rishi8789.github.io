@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1",
+    "categories": ["ai-solutions", "official"],
+    "image": "./assets/images/project/61.png",
+    "title": "Autonomous Medical Agent",
+    "tags": ["FastAPI", "LangChain", "Pinecone", "OpenAI", "Pydantic"],
+    "objective": "Build an autonomous medical AI system that retrieves relevant clinical context and generates grounded answers with production-ready observability.",
+    "responsibility": "Designed agent orchestration, retrieval flow, and tool-calling strategy; implemented FastAPI services with validation using Pydantic; integrated vector retrieval and response synthesis with traceable reasoning and robust failure handling.",
+    "technology": "Python, FastAPI, LangChain, Pinecone, OpenAI, Pydantic, RAG",
+    "outcome": "Delivered a reliable medical assistant capable of context-grounded answers and easier debugging in production through full observability.",
+    "features": [
+      "Autonomous tool selection based on user intent",
+      "Grounded clinical responses through vector retrieval",
+      "Failure recovery with retry and fallback logic",
+      "End-to-end observability for debugging and reliability"
+    ],
+    "link": "#"
+  },
+  {
+    "id": "2",
+    "categories": ["software", "official"],
+    "image": "./assets/images/logo/mRec.png",
+    "title": "mRec - Insurance Recruitment Platform",
+    "tags": ["React", "Redux", "Node.js", "REST APIs"],
+    "objective": "Build and launch a greenfield recruitment platform for Axis Max Life Insurance with scalable frontend architecture and stable production behavior.",
+    "responsibility": "Designed reusable frontend component architecture, coordinated full-stack integrations, and ensured high release quality through testing and regression safety checks.",
+    "technology": "React, Redux, Node.js, REST APIs, Jest",
+    "outcome": "Shipped production-ready platform with no post-launch regressions and improved release confidence for future features.",
+    "features": [
+      "Reusable component-driven React architecture",
+      "Predictable state management with Redux",
+      "API-first full-stack integration",
+      "Regression-safe delivery with test coverage"
+    ],
+    "link": "https://mspacerec.axismaxlife.com/login"
+  },
+  {
+    "id": "3",
+    "categories": ["ai-solutions", "personal"],
+    "image": "./assets/images/project/62.png",
+    "title": "Multi AI Agent for Research",
+    "tags": [
+      "LangChain",
+      "FastAPI",
+      "Pydantic",
+      "Python",
+      "LLM APIs",
+      "Multi-Agent"
+    ],
+    "objective": "Build a multi-agent research system where specialized agents split the overall workload to improve answer quality, maintainability, and extensibility.",
+    "responsibility": "Designed a role-based multi-agent architecture and implemented agent orchestration with robust context passing and failure handling. Structured the codebase into agents.py (agent definitions and tools), pipeline.py (execution order, context flow, and retries), and app.py (API entrypoint).",
+    "technology": "Python, LangChain, LLM APIs, FastAPI, Pydantic",
+    "outcome": "Delivered a scalable research assistant that is easier to debug, test, and extend than a monolithic single-agent implementation.",
+    "features": [
+      "Query Understanding Agent: Interprets and breaks down user research questions into actionable sub-tasks.",
+      "Retrieval Agent: Fetches relevant information from external sources and tool calls.",
+      "Synthesis Agent: Combines findings into a coherent, grounded final response.",
+      "Pipeline Orchestration: Controls context transfer, execution order, and graceful failure recovery.",
+      "API-Ready Backend: Exposed via FastAPI with Pydantic validation for reliable agent-to-agent data flow."
+    ],
+    "link": "#"
+  }
+]

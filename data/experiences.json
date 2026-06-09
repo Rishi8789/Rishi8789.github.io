@@ -1,0 +1,37 @@
+[
+  {
+    "designation": "Software Engineer - AI & Full-Stack",
+    "organization": "Monocept Consulting, Gurugram",
+    "date": "Apr 2024 - Present",
+    "jobs": [
+      "- Built a Medical RAG Chatbot using LangChain, Groq, and Pinecone to answer clinical questions with grounded context from vector search.",
+      "- Designed an autonomous AI agent that selects tools, handles failures with retry logic, and explains reasoning using FastAPI, Pydantic, and LangChain.",
+      "- Optimized Pinecone retrieval quality with fine-tuned Sentence Transformer embeddings to improve response relevance for end users.",
+      "- Led insurance products end to end: delivered the React/Redux mRec platform for Axis Max Life and stabilized ABHI mobile app state issues behind major crashes.",
+      "- Built a Jest-based regression test suite that raised release confidence and maintained consistent behavior for AI feature rollouts.",
+      "- Achiever of the Month (March 2026) for shipping two high-impact AI features recognized by leadership."
+    ]
+  },
+  {
+    "designation": "React Native Engineer (Client Project - via Monocept)",
+    "organization": "Aditya Birla Health Insurance (ABHI)",
+    "date": "2024 - 2025",
+    "jobs": [
+      "- Built and enhanced the ABHI mobile application using React Native with Redux-based state management.",
+      "- Developed key modules including dashboard, lead creation workflow, cross-section filters, and bulk upload flows for operational teams.",
+      "- Refactored complex state flows to reduce app instability and improve consistency across user journeys.",
+      "- Collaborated with product, QA, and backend teams to ship release-ready features with stable API integration."
+    ]
+  },
+  {
+    "designation": "Lead Engineer (Client Project - via Monocept)",
+    "organization": "Axis Max Life Insurance",
+    "date": "2024 - Present",
+    "jobs": [
+      "- Led end-to-end engineering delivery for a multi-role insurance platform built with React and Redux.",
+      "- Designed role-wise journeys and permission-aware interfaces for admins, managers, and field users.",
+      "- Owned architecture, sprint execution, and cross-functional coordination from planning to production rollout.",
+      "- Ensured delivery quality through structured testing, release controls, and production issue prevention."
+    ]
+  }
+]
